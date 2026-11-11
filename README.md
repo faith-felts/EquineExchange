@@ -9,6 +9,7 @@ Equine Exchange is a responsive React marketplace MVP for discovering horses and
 - React 18, Vite, and React Router
 - React Context for shared auction and favorites state; local component state for forms and filters
 - Wikipedia REST API for supplemental breed summaries
+- Horse photography served from Pexels
 - Vitest, jsdom, and React Testing Library
 - Vercel SPA rewrite configuration
 
@@ -63,6 +64,6 @@ Screenshots are not included yet. Capture the Home, Browse Auctions, and Horse D
 ## Known issues and next steps
 
 - Demo changes exist only in memory and reset on refresh; this is intentional for the MVP.
-- Images are hosted by Unsplash and require an internet connection.
+- Pexels-hosted images require an internet connection.
 - Auction dates and bid activity are illustrative; there is no real-time countdown or server-side bid validation.
 - Add backend persistence, authentication and role permissions, verified seller/listing workflows, real auction timing, notifications, and compliant payments in a future full-stack release.

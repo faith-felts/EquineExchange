@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <img className="hero-image" src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=2000&q=90" alt="" />
+        <img className="hero-image" src="https://images.pexels.com/photos/27740073/pexels-photo-27740073.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="" />
         <div className="hero-overlay" />
         <div className="container hero-content">
           <p className="hero-kicker"><span /> A marketplace made for horse people</p>

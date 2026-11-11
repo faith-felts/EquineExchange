@@ -20,7 +20,7 @@ export default function SellerDashboard() {
     const horse = addHorse({
       ...form,
       age: Number(form.age),
-      image: form.image || 'https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?auto=format&fit=crop&w=1200&q=85',
+      image: form.image || 'https://images.pexels.com/photos/13340061/pexels-photo-13340061.jpeg?auto=compress&cs=tinysrgb&w=1200',
       imageAlt: form.imageAlt || `${form.name}, listed horse`,
     })
     setCreatedHorse(horse)
