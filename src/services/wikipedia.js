@@ -1,5 +1,11 @@
+const articleTitles = {
+  morgan: 'Morgan horse',
+}
+
 export async function fetchBreedSummary(breed, signal) {
-  const title = encodeURIComponent(breed.trim().replaceAll(' ', '_'))
+  const requestedTitle = breed.trim()
+  const articleTitle = articleTitles[requestedTitle.toLowerCase()] || requestedTitle
+  const title = encodeURIComponent(articleTitle.replaceAll(' ', '_'))
   const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`, { signal })
   if (!response.ok) {
     if (response.status === 404) return null
