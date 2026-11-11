@@ -1,5 +1,6 @@
 const articleTitles = {
   morgan: 'Morgan horse',
+  paint: 'American Paint Horse',
 }
 
 export async function fetchBreedSummary(breed, signal) {
